@@ -1,0 +1,29 @@
+{
+  "name": "evaluacion_practica",
+  "version": "0.0.1",
+  "description": "evaluacion final node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iberto22/evalfinal.git"
+  },
+  "keywords": [
+    "evaluacion",
+    "node"
+  ],
+  "author": "Ivan Bertossi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iberto22/evalfinal/issues"
+  },
+  "homepage": "https://github.com/iberto22/evalfinal#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}
